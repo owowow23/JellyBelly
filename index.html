@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JellyBelly</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script>
+    <script src="js/main.js"></script>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-top">
+                <div class="center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="center">
+                    <div class="navi-area">
+                        <div class="menu-icon">
+                            <div class="menu-btn">
+                                <a href="#">
+                                    <img src="img/iconfinder/menu.svg" alt="menu-icon">
+                                </a>
+                            </div>
+                            <div class="logo2">
+                                <a href="#">
+                                    <p>JellyBelly</p>
+                                </a>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Review</a></li>
+                                <li><a href="#">Flavor</a></li>
+                                <li><a href="#">Store</a></li>
+                                <li><a href="#">History</a></li>
+                            </ul>
+                        </nav>
+                        <div class="member">
+                            <ul>
+                                <li><a href="#">LOGIN</a></li>
+                                <li><a href="#">SIGNUP</a></li>
+                                <li><a href="#">
+                                    <span class="search-icon"><img src="img/iconfinder/search.svg" alt="search"></span>
+                                    <span class="close-icon"><img src="img/iconfinder/close.svg" alt="close"></span>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="s1">
+            <div class="center">
+                <div class="main">
+                    <div class="swiper mainSwiper">
+                        <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/MainSlide/slide1.jpg" alt="slide1">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>젤리빈</h2>
+                                            <p>남녀노소 누구나 좋아하는</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/MainSlide/slide2.jpg" alt="slide2">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>쿠키 + 젤리빈</h2>
+                                            <p>다른 간식과도 어울리는</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/MainSlide/slide3.jpg" alt="slide3">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>지금 당장 구매하세요</h2>
+                                            <p>~10% 세일중</p>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div><!-- swiper-wrapper -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center">
+                <div class="title">
+                    <h1>Review</h1>
+                    <a href="#">더보기 <i><img src="img/iconfinder/plus.svg" alt="더하기"></i></a>
+                </div>
+                <div class="container">
+                    <!-- scrollTrigger의 pin 영역 -->
+                    <div class="left-con">
+                        <!-- css에서 photo에 hover하면 이미지가 커지는 애니메이션 -->
+                        <div class="photo main">
+                            <img src="img/Review/main.jpg" alt="리뷰 메인">
+                        </div>
+                        <p>TEXT</p>
+                    </div>
+                    <div class="right-con">
+                        <!-- short클래스는 높이 : 300 -->
+                        <!-- long 클래스는 높이 : 400 -->
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/Review/Review1.jpg" alt="Review1">
+                                </div>
+                                <p>지인이 맛있다고 추천하여<br>
+                                   구매했습니다.~~</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/Review/Review2.jpg" alt="Review2">
+                                </div>
+                                <p>다 먹으면 무조건 재구매</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/Review/Review3.png" alt="Review3">
+                                </div>
+                                <p>새콤달콤한 젤리 좋아하는 사람 추천</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/Review/Review4.jpg" alt="Review4">
+                                </div>
+                                <p>6가지 색상으로 다양한 맛이 난다.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/Review/Review5.jpg" alt="Review5">
+                                </div>
+                                <p>중독성이 강해 다이어트하는 사람은<br>
+                                   주의</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/Review/Review6.jpg" alt="Review6">
+                                </div>
+                                <p>동물성 단백질이 안들어가 좋음.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/Review/Review7.jpg" alt="Review7">
+                                </div>
+                                <p>하얀색이 특히 맛있어요!</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/Review/Review8.jpg" alt="Review8">
+                                </div>
+                                <p>크기가 작고 휴대하기 간편하네요~</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center">
+                <div class="title">
+                    <h1>Flavor</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Flavor/딸기.jpg" alt="딸기맛">
+                                    </div>
+                                    <p>딸기맛</p>
+                                </a>
+                            </div>    
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Flavor/레몬.jpg" alt="레몬맛">
+                                    </div>
+                                    <p>레몬맛</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Flavor/버블껌.jpg" alt="버블껌맛">
+                                    </div>
+                                    <p>버블껌맛</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Flavor/포도.jpg" alt="포도맛">
+                                    </div>
+                                    <p>포도맛</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Flavor/수박.jpg" alt="수박맛">
+                                    </div>
+                                    <p>수박맛</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="center">
+                <div class="title">
+                    <h1>Store</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Store/Store1.jpg" alt="store1">
+                                    </div>
+                                    <p>젤리벨리 해리포터 젤리빈<br>
+                                        24g, 1개</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Store/Store2.jpg" alt="store2">
+                                    </div>
+                                    <p>새콤달콤 젤리빈스 1kg, 1개</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Store/Store3.jpg" alt="store3">
+                                    </div>
+                                    <p>젤리벨리 20가지 혼합맛<br>
+                                        1개입, 70g, 4개</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Store/Store4.jpg" alt="store4">
+                                    </div>
+                                    <p>젤리빈스 1kg, 2개</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/Store/Store5.jpg" alt="store5">
+                                    </div>
+                                    <p>젤리벨리 20가지 혼합맛 1개입<br>
+                                    70g, 6개</p>
+                                </a>
+                            </div>      
+                        </div>
+                        <div class="swiper-scrollbar"></div>   
+                    </div>       
+                </div>     
+            </div>
+        </section>
+        <section class="s5">
+            <div class="center">
+                <div class="title">
+                    <h1>History</h1>
+                    <a href="#">더보기 <i><img src="img/iconfinder/plus.svg" alt="더하기"></i></a>
+                </div>
+                <div class="container">
+                    <div class="left-con">
+                        <a href="#">
+                            <div class="photo">
+                                <img src="img/History/main.jpg" alt="hismain">
+                            </div>
+                            <p>TEXT</p>
+                        </a>
+                    </div>
+                    <div class="right-con">
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/History/History1.jpg" alt="history1">
+                                </div>
+                                <p>튀르키예의 전통과자 로쿰에서 기원함</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/History/History2.jpg" alt="history2">
+                                </div>
+                                <p>남북전쟁 중 군인한테 보급되어 젤리빈이라 불림</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/History/History3.jpg" alt="history3">
+                                </div>
+                                <p>젤리빈을 산더미처럼 파는 방식이 도입됨</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/History/History4.jpg" alt="history4">
+                                </div>
+                                <p>로널드 레이건이 대통령이 즐겨 먹음</p>
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="s6">
+            <div class="title">
+                <h1>한국문화상자 활용사례</h1>
+            </div>
+            <div class="container">
+                <div class="photo-box">
+                    <a href="#">
+                        <img src="" alt="">
+                    </a>
+                </div>
+            </div>
+        </section> -->
+        <section class="s7">
+            <div class="center">
+                <div class="container">
+                    <div class="logo-icon">
+                        <img src="img/logo.png" alt="로고">
+                    </div>
+                    <p>실시간으로 업데이트 되는 젤리벨리 최신 소식</p>
+                    <a href="#">팔로우하기 <i><img src="img/iconfinder/plus.svg" alt="더하기"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="center">
+                    <div class="info">
+                        <ul>
+                            <li><a href="#">매체소개</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">포인트 정책</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">이메일무단수집금지</a></li>
+                            <li><a href="#">광고·제휴문의</a></li>
+                            <li><a href="#">윤리경영</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/iconfinder/104498_facebook_icon.svg" alt="페이스북">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/iconfinder/8679433_instagram_fill_icon.svg" alt="인스타그램">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/iconfinder/5305164_play_video_youtube_youtube logo_icon.svg" alt="유튜브">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/iconfinder/710297_kakao_social_talk_icon.svg" alt="카카오스토리">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/iconfinder/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="트위터">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="center">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <address>
+                        서울시 종로구 삼총로 37 TEL 20-3704-3104 FAX 02-3704-3149<br>
+                        Copyright ⓒ JellyBelly. All rights Reserved.
+                    </address>
+                    <div class="family">
+                        <a href="#">
+                            <p>패밀리 사이트</p>
+                            <span><img src="img/iconfinder/211614_down_b_arrow_icon.svg" alt="down"></span>
+                        </a>
+                        <div class="sub">
+                            <a href="#">츄파춥스</a>
+                            <a href="#">농심</a>
+                            <a href="#">허쉬</a>
+                            <a href="#">킨더조이</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="sitemap">
+            <div class="sitemap-in">
+                <a href="#" class="close-btn"><img src="img/iconfinder/close.svg" alt="close"></a>
+                <div class="sitebox">
+                    <div class="memberbox">
+                        <ul>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">SIGNUP</a></li>
+                        </ul>
+                    </div><!-- memberbox -->
+                    <div class="menu1">
+                        <ul>
+                            <li><a href="#">공유하기</a></li>
+                            <li><a href="#">활용사례</a></li>
+                            <li><a href="#">자료정보카드</a></li>
+                        </ul>
+                    </div><!-- menu1 -->
+                    <div class="menu2">
+                        <ul>
+                            <li>
+                                <a href="#"><p>Review</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">Review1</a></li>
+                                    <li><a href="#">Review2</a></li>
+                                    <li><a href="#">Review3</a></li>
+                                    <li><a href="#">Review4</a></li>
+                                    <li><a href="#">Review5</a></li>
+                                    <li><a href="#">Review6</a></li>
+                                    <li><a href="#">Review7</a></li>
+                                    <li><a href="#">Review8</a></li>
+                                </ul>
+                            </li><!-- Review -->
+                            <li>
+                                <a href="#"><p>Flavor</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>    
+                                <ul class="sub">
+                                    <li><a href="#">딸기맛</a></li>
+                                    <li><a href="#">레몬맛</a></li>
+                                    <li><a href="#">버블껌맛</a></li>
+                                    <li><a href="#">포도맛</a></li>
+                                    <li><a href="#">수박맛</a></li>
+                                </ul>
+                            </li><!-- Flavor -->
+                            <li>
+                                <a href="#"><p>Store</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>    
+                                <ul class="sub">
+                                    <li><a href="#">Store1</a></li>
+                                    <li><a href="#">Store2</a></li>
+                                    <li><a href="#">Store3</a></li>
+                                    <li><a href="#">Store4</a></li>
+                                    <li><a href="#">Store5</a></li>
+                                </ul>
+                            </li><!-- Store -->
+                            <li>
+                                <a href="#"><p>History</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>    
+                                <ul class="sub">
+                                    <li><a href="#">튀르키예</a></li>
+                                    <li><a href="#">남북전쟁</a></li>
+                                    <li><a href="#">산더미</a></li>
+                                    <li><a href="#">로널드 레이건</a></li>
+                                </ul>
+                            </li><!-- History -->
+                        </ul>
+                    </div><!-- menu2 -->
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="img/iconfinder/104498_facebook_icon.svg" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/iconfinder/8679433_instagram_fill_icon.svg" alt="instagram"></a></li>
+                            <li><a href="#"><img src="img/iconfinder/5305164_play_video_youtube_youtube logo_icon.svg" alt="youtube"></a></li>
+                            <li><a href="#"><img src="img/iconfinder/710297_kakao_social_talk_icon.svg" alt="kakao"></a></li>
+                            <li><a href="#"><img src="img/iconfinder/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="X"></a></li>
+                        </ul>
+                    </div>
+                    
+                </div><!-- sitebox -->                
+            </div><!-- sitemap-in --> 
+            <div class="sitemap-bg"></div>   
+        </div><!-- sitemap -->
+        <div class="search-area">
+            <div class="search-bg"></div>
+            <div class="search-in">
+                <div class="input-area">
+                    <input type="search" name="search" placeholder="검색어를 입력해 주세요.">
+                        <button type="button">
+                            <img src="img/iconfinder/search.svg" alt="검색">
+                        </button>
+                </div><!-- input area -->
+            </div><!-- saerch-in -->
+        </div><!-- search-area -->    
+    </div><!-- wrap -->
+    <div class="top"><a href="#">TOP</a></div>
+</body>
+</html>
